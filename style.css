@@ -1,35 +1,3 @@
-body{
-    background-color: black;
-    font-family: 'Lato', sans-serif;
-    color: aliceblue;
-}
-
-#container{
-    width: 1600px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 50px;
+.body{
     
 }
-
-    #logo{
-    width: 1520px;
-    margin: 20px;   
-        
-    }
-        #logo-in-rght{
-            float: left;
-            font-size:70px;
-            width: 1000px;
-            
-        }
-        #logo-in-lft{
-            float: left;
-            font-size: 70px;
-        }
-     
-        
-    #left-sq{
-        width: 50%;
-        float: left;
-    }
