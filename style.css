@@ -3,3 +3,8 @@
     /* ff0037 */
     /* d30f0f */
 }
+
+.myClassImage{
+    opacity: 0.9;
+    height: 800px !important;
+}
