@@ -4,7 +4,10 @@
     /* d30f0f */
 }
 
-.myClassImage{
-    opacity: 0.9;
-    height: 800px !important;
+.myClassImage{ 
+background-size: cover;
+height: 88vh;
 }
+
+
+
