@@ -8,19 +8,18 @@
     <meta name="description" content="Strona poświęcona dyscyplinie humanistycznej, zajmującej się naukową refleksją nad filmem.">
     <meta name="keywords" content="film, teoria filmu, film jako źródło historyczne">
     
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
 
-    <img class="bgImage"  src="img/filmImg-jason-dent.jpg" alt="cienemaImage">
+  <div class="bg-image" style="background-image: url('img/filmImg-jason-dent.jpg');">
     <!-- Image by Photo by <a href="https://unsplash.com/@jdent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Dent</a> on <a href="https://unsplash.com/photos/SnXIF8_2oPw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
-
-
-                   <!-- <<<<<<<<<<<<<< navbar section >>>>>> -->
-  
-    <nav class="navbar navbar-expand-md navbar-light h6">  <!--bg-light--> 
+                   
+                    <!-- <<<<<<<<<<<<<< navbar section >>>>>> -->
+    <nav class="navbar navbar-expand-md navbar-light h5">  <!--bg-light--> 
         <div class="container">
           <a href="#" class="navbar-brand text-white" >
             <img src="./img/clapperboard.png" alt="clipboard" width="75px" class="pe-2 pt-1 d-inline-block" style="float:left;">
@@ -35,7 +34,7 @@
              aria-controls="navbarNavDropdown" 
              aria-expanded="false" 
              aria-label="Toggle navigation"> 
-             <span class="navbar-toggler-icon"></span>   
+             <span class="navbar-toggler-icon text-white"></span>   
           </button> 
 
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -56,27 +55,35 @@
           </div>
         </div>
     </nav>
-      
-      
-                                       <!-- first content -->
-
-    <div class="container text-white position-absolute bottom-0 start-50 translate-middle-x pb-5 ">
-      <div class="row justify-content-evenly pb-5">
-        <div class="col-3 border border-danger rounded-3 p-4">
-          One of three columns Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  </div>    
+                                       <!--3 div on main img-->
+  <div class="container text-white position-absolute bottom-0 start-50 translate-middle-x pb-5"> <!-- d-none d-sm-block -->
+      <div class="row justify-content-evenly pb-5 myOwnClassDivOnMainImage">
+        <div class="col-xl-3 col-md-12 border border-danger rounded-3 p-4 h5 myOwn">
+         One of three columns Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
-        <div class="col-3 border border-danger rounded-3 p-4">
+        <div class="col-xl-3 col-md-12 border border-danger rounded-3 p-4 h5 myOwn">
           One of three columns Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         </div>
-        <div class="col-3 border border-danger rounded-2 p-4">
+        <div class="col-xl-3 col-md-12 border border-danger rounded-2 p-4 h5 myOwn">
            One of three columns Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
         </div>
-     
-       
+      </div>
+  </div>
+
+  <div class="container text-dark mt-5">
+    <div class="row justify-content-evenly pb-5">
+      <div class="col-3 border border-danger rounded-3 p-4">
+        One of three columns Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      </div>
+      <div class="col-3 border border-danger rounded-3 p-4">
+        One of three columns Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      </div>
+      <div class="col-3 border border-danger rounded-2 p-4">
+         One of three columns Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
       </div>
     </div>
-
-   
+</div> 
 
 
 
