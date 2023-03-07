@@ -1,4 +1,7 @@
-
+body{
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
 
 .myClassNavlinkHover:hover{ 
     color: #d30f0f !important;
@@ -15,7 +18,7 @@
 
 .myOwnClassDivOnMainImage > .myOwn{
     background-color: #d30f0f;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 
