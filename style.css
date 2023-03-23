@@ -18,17 +18,18 @@ body{
 
 .myOwnClassDivOnMainImage > .myOwn{
     background-color: #d30f0f;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .myOwnClassProjectContentLeft{
-    height: 40rem;
+    height: 45rem;
     background-color: #d30f0f;
     font-size: 20px;
+    text-decoration: none;
   
 }
 .myOwnClassProjectContentRight{
-    height: 40rem;
+    height: 45rem;
     border-style: solid;
     border-width: 0 2.5px 2.5px 2.5px; 
     border-color: #d30f0f;
