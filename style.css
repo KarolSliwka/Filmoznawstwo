@@ -1,6 +1,7 @@
 body{
     font-family: 'Golos Text', sans-serif;
     font-family: 'Mulish', sans-serif;
+    background-color: rgba(185, 200, 215, 0.955);
 }
 
 .myClassNavlinkHover:hover{ 
@@ -25,15 +26,19 @@ body{
     height: 50rem;
     background-color: #d30f0f;
     font-size: 20px;
-    text-decoration: none;
+    border-style: solid;
+    border-width: 2.5px; 
+    border-color: #d30f0f;
+    border-radius: 10px;
   
 }
 .myOwnClassProjectContentRight{
     height: 50rem;
     border-style: solid;
-    border-width: 0 2.5px 2.5px 2.5px; 
+    border-width: 2.5px; 
     border-color: #d30f0f;
     color: #d30f0f;
+    border-radius: 10px;
 }
 
 
