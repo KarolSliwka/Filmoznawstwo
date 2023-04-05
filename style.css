@@ -13,37 +13,36 @@ body{
  .bg-image{ 
     height: 100vh;
     background-size: cover;
-    filter: brightness(0.9);
+    filter: brightness(0.8);
 }
 
-
 .myOwnClassDivOnMainImage > .myOwn{
-    background-color: #d30f0f;
-    opacity: 0.9;
+    border-style: solid;
+    border-width: 2.5px; 
+    border-color: #d30f0f;
+    /* background-color: #d30f0f; */
+    /* opacity: 0.6; */
 }
 
 .myOwnClassProjectContentLeft{
-    height: 50rem;
     background-color: #d30f0f;
+    border-style: solid;
+    border-width: 2.5px; 
+    border-color: #d30f0f;
+    border-radius: 10px;
+}
+
+.myOwnClassProjectContentRight{
     font-size: 20px;
     border-style: solid;
     border-width: 2.5px; 
     border-color: #d30f0f;
     border-radius: 10px;
-  
-}
-.myOwnClassProjectContentRight{
-    height: 50rem;
-    border-style: solid;
-    border-width: 2.5px; 
-    border-color: #d30f0f;
     color: #d30f0f;
-    border-radius: 10px;
 }
 
 
 .myOwnClassSignForm{
-    height: 10rem;
     background-color: #d30f0f;
 }
 
