@@ -18,74 +18,71 @@
 
 <body>
 
-                          <!-- <<<<<<<<<<<<<< navbar section with background-image>>>>>> -->
+                          <!-- <<<<<<<<<<<<<< navbar section with background-image and 
+                                  five linked divs on bottom >>>>>> -->
   <section>  
-  <div class="bg-image" style="background-image: url('img/filmImg-jason-dent.jpg');">
+    <div class="bg-image" style="background-image: url('img/filmImg-jason-dent.jpg');">
     <!-- Image by Photo by <a href="https://unsplash.com/@jdent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Dent</a> on <a href="https://unsplash.com/photos/SnXIF8_2oPw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
                    
-                             
-    
-    <nav class="navbar navbar-expand-md navbar-light h5">  <!--bg-light--> 
-        <div class="container">
-          <a href="#" class="navbar-brand text-white" >
-            <img src="./img/clapperboard.png" alt="clipboard" width="85px" class="pe-3 pt-3" style="float:left;">
-            <p class="pt-3 mb-0" style="font-size: 21px;">Filmoznawstwo</p>
-            <p class="text-muted fw-bold" style="font-size:17px;">Naukowa refleksja<br>nad filmem</p>
-          </a>
+        <nav class="navbar navbar-expand-md navbar-light h5">
+            <div class="container">
+              <a href="#" class="navbar-brand text-white" >
+                <img src="./img/clapperboard.png" alt="clipboard" width="85px" class="pe-3 pt-3" style="float:left;">
+                <p class="pt-3 mb-0" style="font-size: 21px;">Filmoznawstwo</p>
+                <p class="text-muted fw-bold" style="font-size:17px;">Naukowa refleksja<br>nad filmem</p>
+              </a>
+            
+              <button class="navbar-toggler custom-toggler" 
+                 type="button" 
+                 data-bs-toggle="collapse" 
+                 data-bs-target="#navbarNavDropdown" 
+                 aria-controls="navbarNavDropdown" 
+                 aria-expanded="false" 
+                 aria-label="Toggle navigation"> 
+                 <span class="navbar-toggler-icon text-white"></span>   
+              </button> 
+            
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-white h4  myClassNavlinkHover" href="#">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
 
-          <button class="navbar-toggler custom-toggler" 
-             type="button" 
-             data-bs-toggle="collapse" 
-             data-bs-target="#navbarNavDropdown" 
-             aria-controls="navbarNavDropdown" 
-             aria-expanded="false" 
-             aria-label="Toggle navigation"> 
-             <span class="navbar-toggler-icon text-white"></span>   
-          </button> 
-
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link text-white  myClassNavlinkHover" href="#">Kontakt</a>
-              </li>
-            </ul>
-          </div>
+                                 <!-- five linked divs on bottom -->
+        <div class="container position-absolute start-50 translate-middle-x bottom-0 mb-5">
+          <div class="row  text-center mb-5 pb-5 h3 myOwnClass-fiveLinkedDivs">
+            <div class="col border me-2 p-2" style="transform: rotate(0);">
+                <a href="#" class="stretched-link">O projekcie</a> 
+            </div>
+            <div class="col border me-2 p-2" style="transform: rotate(0);">
+                <a href="#" class="stretched-link">Hisoria filmu</a> 
+            </div>
+            <div class="col border me-2 p-2" style="transform: rotate(0);">
+                <a href="#" class="stretched-link">Film w Polsce</a> 
+            </div>
+            <div class="col border me-2 p-2" style="transform: rotate(0);">
+                <a href="#" class="stretched-link">Sylwetki</a> 
+            </div>
+            <div class="col border me-2 p-2" style="transform: rotate(0);">
+                <a href="#" class="stretched-link">Publikacje</a> 
+            </div>
+         </div>
         </div>
-    </nav>
-    
-  </div>
+
+    </div>
   </section>   
                                        
-                          <!-- <<<< five menu bottom "O projekcie", "Historia filmu", etc.>>>>>>-->
-                                          <!-- stretched-link -->
-  <section>
-  <div class="container position-absolute mb-5 bottom-0 start-50 translate-middle-x "> 
-      <div class="row justify-content-evenly">
-        <div class="col-2 text-center py-3 h4" >
-          <a href="#" class="myOwn" style="">O projekcie</a> 
-        </div>
-        <div class="col-2 text-center py-3 h5 myOwn">
-          <a href="#" class=""> Historia filmu</a>
-        </div>
-        <div class="col-2 text-center py-3 h5 myOwn">
-          <a href="#" class=""> Sylwetki</a>
-        </div>
-        <div class="col-2 text-center  py-3 h5 myOwn">
-          <a href="#" class=""> Film w Polsce</a>
-        </div>
-        <div class="col-2 text-center  py-3 h5 myOwn">
-          <a href="#" class="">Publikacje</a>
-        </div>
-      </div>
-  </div>
-  </section>
 
                        <!-- <<<<<<<<<<< "O Projekcie" section >>>>>>>>>>>-->
   <section>
     <div class="container mt-3">
       <div class="row justify-content-center">
         <h2 class="text-center pt-3 pb-3">O projekcie</h2>
-        <div class="col-5 me-1 myOwnClassProjectContentLeft">
+        <div class="col-5 me-2 myOwnClassProjectContentLeft">
           <p class="text-white py-5 px-3 h5">
             Filmoznawstwo (również: wiedza o filmie  lub filmologia)  dyscyplina humanistyczna, zajmująca się naukową refleksją nad filmem. Obejmuje trzy zasadnicze dziedziny: teorię filmu (z historią myśli filmowej), historię filmu oraz krytykę filmową. W kręgu zainteresowań filmoznawców znajduje się także wiele innych przenikających się dyscyplin, np.  antropologia filmu, teoria nowych mediów i audiowizualności. 
             
@@ -190,6 +187,28 @@
 </html>
 
 
+
+<!-- <section> 
+  <div class="container position-absolute mb-5 pb-5 bottom-0 start-50 translate-middle-x "> 
+      <div class="row justify-content-evenly myOwn-BottomMenu">
+        <div class="col text-center py-3 h4" >
+          <a href="#" class="">O projekcie</a> 
+        </div>
+        <div class="col text-center py-3 h4">
+          <a href="#" class=""> Historia filmu</a>
+        </div>
+        <div class="col text-center py-3 h4">
+          <a href="#" class=""> Sylwetki</a>
+        </div>
+        <div class="col text-center py-3 h4">
+          <a href="#" class=""> Film w Polsce</a>
+        </div>
+        <div class="col text-center py-3 h4">
+          <a href="#" class="">Publikacje</a>
+        </div>
+      </div>
+  </div>
+  </section>-->
 
 
 

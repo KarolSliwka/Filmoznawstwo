@@ -13,15 +13,13 @@ body{
  .bg-image{ 
     height: 100vh;
     background-size: cover;
-    filter: brightness(0.9);
 }
 
 
-.myOwn{
+.myOwnClass-fiveLinkedDivs a{
     color:#d30f0f;
-    text-decoration: none ;
-    /* background-color: #d30f0f; 
-    opacity: 0.9;*/
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
 .myOwnClassProjectContentLeft{
