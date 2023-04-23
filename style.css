@@ -1,7 +1,7 @@
 body{
     font-family: 'Golos Text', sans-serif;
     font-family: 'Mulish', sans-serif;
-    background-color: rgba(185, 200, 215, 0.955);
+    /* background-color: rgba(185, 200, 215, 0.955); */
 }
 
 .myClassNavlinkHover:hover{ 
@@ -28,6 +28,10 @@ body{
     transform: rotate(0);
 }
 
+.oProjekcieSection{
+    background-color:rgb(220, 220, 220);
+}
+
 .myOwnClassProjectContentLeft{
     background-color: #d30f0f;
     font-size: 20px;
@@ -46,6 +50,16 @@ body{
     color: #d30f0f;
 }
 
+.myOwnLinkClass{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.signInSection{
+    background-color: antiquewhite;
+
+}
 
 .myOwnClassSignForm{
     background-color: #d30f0f;
