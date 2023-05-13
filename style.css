@@ -15,7 +15,6 @@ body{
     background-size: cover;
 }
 
-
 .myOwnClass-fiveLinkedDivs a{
     color:white;
     text-decoration: none;
@@ -32,29 +31,35 @@ body{
 }
 
 
-
-
 .oProjekcieSection{
     background-color:rgb(220, 220, 220);
 }
 
-.myOwnClassProjectContentLeft{
-    background-color: #000000;
-    font-size: 20px;
-    border-style: solid;
-    border-width: 2.5px; 
-    border-color: #000000;
-    border-radius: 10px;
-}
+    .myOwnClassProjectContentLeft{
+        background-color: #000000;
+        font-size: 20px;
+        border-style: solid;
+        border-width: 2.5px; 
+        border-color: #000000;
+        border-radius: 10px;
+    }
+    .myOwnClassProjectContentLeft::first-letter{
+        color: #ff0000;
+        font-size: 40px;
+    }
 
-.myOwnClassProjectContentRight{
-    font-size: 20px;
-    border-style: solid;
-    border-width: 2.5px; 
-    border-color: #000000;
-    border-radius: 10px;
-    color: #000000;
-}
+    .myOwnClassProjectContentRight{
+        font-size: 20px;
+        border-style: solid;
+        border-width: 2.5px; 
+        border-color: #000000;
+        border-radius: 10px;
+        color: #000000;
+    }
+    .myOwnClassProjectContentRight::first-letter{
+        color: #ff0000;
+        font-size: 40px;
+    }
 
 .myOwnLinkClass{
     text-decoration: none;
