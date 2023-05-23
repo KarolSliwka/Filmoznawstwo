@@ -66,6 +66,9 @@ body{
     font-size: 30px;
     color: black;
 }
+    .zobaczWiecejClass:hover{
+        color: #d30f0f;
+    }
 
 .signInSection, .myOwnClassSignForm{
     background-color: #000000;
