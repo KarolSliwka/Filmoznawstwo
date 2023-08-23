@@ -20,16 +20,16 @@ body{
     text-decoration: none;
     letter-spacing: 2px;
 }
-.myOwnClass-insideLinekedDivs:hover a{
-    color:#d30f0f;
- }
+
 
 .myOwnClass-insideLinekedDivs{
     background-color: black;
     opacity: 0.7;
     transform: rotate(0);
 }
-
+    .myOwnClass-insideLinekedDivs:hover a{
+        color:#d30f0f;
+    }
 
 .oProjekcieSection{
     background-color:rgb(220, 220, 220);
@@ -38,6 +38,7 @@ body{
     .myOwnClassProjectContentLeft{
         background-color: #000000;
         font-size: 20px;
+        line-height: 5.9;
         border-style: solid;
         border-width: 2.5px; 
         border-color: #000000;
@@ -90,6 +91,7 @@ body{
     .zapiszBtn{
         background-color: #d30f0f;
         color: white;
+        width: 100%;
     }
 
 
