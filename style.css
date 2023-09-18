@@ -73,15 +73,15 @@ body{
 
 .HistoriaKalendariumSection{
     background-color:rgb(220, 220, 220);
+  
 }
-    .kalendariumClass{    
-        background-color: rgb(220, 220, 220);  
+    .kalendariumClass{   
         color: #000000;
-        font-size: 30px;
         border-style: solid;
-        border-width: 2.5px; 
+        border-width: 2.0px; 
         border-color: #d30f0f;
         border-radius: 10px;
+        height: 50vh;
     }
     
 
