@@ -31,10 +31,10 @@ body{
         color:#d30f0f;
     }
 
+
 .oProjekcieSection{
     background-color:rgb(220, 220, 220);
 }
-
     .myOwnClassProjectContentLeft{
         background-color: #000000;
         font-size: 20px;
@@ -48,7 +48,6 @@ body{
         color: #d30f0f;
         font-size: 40px;
     }
-
     .myOwnClassProjectContentRight{
         font-size: 20px;
         border-style: solid;
@@ -61,6 +60,18 @@ body{
         color: #d30f0f;
         font-size: 40px;
     }
+
+
+.historiaSection{
+   background-color: #d30f0f;
+  
+}
+    .myOwnClassHistoriaSection{
+      
+    }
+
+
+
 
 .zobaczWiecejClass{
     text-decoration: none;
