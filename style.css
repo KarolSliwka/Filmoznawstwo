@@ -66,10 +66,11 @@ body{
 /*  ---- historia section ---- */
 .historiaSection{
    color: #d30f0f;
-   background-color: #000000;
+   background-color: #d5bebe;
    
 }
     .myOwnClassHistoriaSection{
+    
         opacity: 0.4;
         transition: 0.5s;
     }
@@ -78,7 +79,7 @@ body{
     }    
 
 
-/*  ---- twótcy reżyserzy aktorzy section ---- */
+/*  ---- twórcy-reżyserzy-aktorzy section ---- */
 .zobaczWiecejClass{
     text-decoration: none;
     font-size: 30px;
