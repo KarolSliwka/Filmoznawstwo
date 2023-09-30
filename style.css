@@ -34,12 +34,12 @@ body{
 
 /* ---- o projekcie section ---- */
 .oProjekcieSection{
-    background-color:rgb(220, 220, 220);
+    background-color:rgb(183, 121, 121);
 }
     .myOwnClassProjectContentLeft{
         background-color: #000000;
+        text-align: justify;
         font-size: 20px;
-        line-height: 5.9;
         border-style: solid;
         border-width: 2.5px; 
         border-color: #000000;
@@ -50,6 +50,7 @@ body{
         font-size: 40px;
     }
     .myOwnClassProjectContentRight{
+        text-align: justify;
         font-size: 20px;
         border-style: solid;
         border-width: 2.5px; 
@@ -67,17 +68,19 @@ body{
 .historiaSection{
    color: #d30f0f;
    background-color: #d5bebe;
-   
 }
     .myOwnClassHistoriaSection{
-    
+        display: inline;
+        background-color: #d30f0f;
+        width: 580px;
+        height: 580px;
         opacity: 0.4;
-        transition: 0.5s;
+        transition: 0.9s;
     }
     .myOwnClassHistoriaSection:hover{
         opacity: 1.0;
     }    
-
+   
 
 /*  ---- twórcy-reżyserzy-aktorzy section ---- */
 .zobaczWiecejClass{
