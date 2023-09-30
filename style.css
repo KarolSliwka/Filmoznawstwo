@@ -34,7 +34,7 @@ body{
 
 /* ---- o projekcie section ---- */
 .oProjekcieSection{
-    background-color:rgb(183, 121, 121);
+    background-color:rgb(182, 7, 7);
 }
     .myOwnClassProjectContentLeft{
         background-color: #000000;
@@ -50,6 +50,7 @@ body{
         font-size: 40px;
     }
     .myOwnClassProjectContentRight{
+        background-color: #ffffff;
         text-align: justify;
         font-size: 20px;
         border-style: solid;
