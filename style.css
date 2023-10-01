@@ -71,10 +71,10 @@ body{
    background-color: #d5bebe;
 }
     .myOwnClassHistoriaSection{
-        display: inline;
         background-color: #d30f0f;
-        width: 580px;
-        height: 580px;
+        background-image: url("img/kino_objazd.jpg");
+        width: 550px;
+        height: 550px;
         opacity: 0.4;
         transition: 0.9s;
     }
