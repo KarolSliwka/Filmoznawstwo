@@ -1,9 +1,15 @@
-
-/* ---- background image / navbar / menu ---- */
 body{
     font-family: 'Golos Text', sans-serif;
     font-family: 'Mulish', sans-serif;  
 }
+
+/*  for all a hiperlink */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ---- background image / navbar / menu ---- */
 
 .myClassNavlinkHover:hover{ 
     color: #d30f0f !important;
@@ -70,15 +76,21 @@ body{
    color: #d30f0f;
    background-color: #d5bebe;
 }
-    .myOwnClassHistoriaSection{
+    .myStyleHistoriaSection{
         background-color: #d30f0f;
         background-image: url("img/kino_objazd.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 550px;
         height: 550px;
+        text-decoration: none;
+        font-size: 40px;
+        color: #000000;
         opacity: 0.4;
         transition: 0.9s;
     }
-    .myOwnClassHistoriaSection:hover{
+    .myStyleHistoriaSection:hover{
         opacity: 1.0;
     }    
    
