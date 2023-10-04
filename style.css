@@ -75,24 +75,25 @@ a{
    color: #d30f0f;
    font-size: 60px;
 }
+    .test{
+        font-size: 40px;
+        color: #d30f0f;
+    }
     .myStyleHistoriaSection{
+        width: 550px;
+        height: 550px;
         background: #d30f0f url("img/kino_objazd.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        width: 550px;
-        height: 550px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        color: #d30f0f;
-        /* opacity: .4; */
-        text-decoration: none;
+        justify-content: center; 
+        opacity: 0.3;
         transition: 0.9s;
     }
     .myStyleHistoriaSection:hover{
-        opacity: 1.0;
+        opacity: 1;
     }    
    
 
