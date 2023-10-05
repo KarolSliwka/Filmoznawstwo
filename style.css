@@ -72,36 +72,42 @@ a{
     
 /*  ---- historia section ---- */
 .historiaSection{
-   color: #d30f0f;
-   font-size: 60px;
+    color: #d30f0f;
+    font-size: 60px;
 }
     .test{
-        font-size: 40px;
-        color: #d30f0f;
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 400;
     }
     .myStyleHistoriaSection{
         width: 550px;
         height: 550px;
-        background: #d30f0f url("img/kino_objazd.jpg");
+        background: rgba(211, 15, 15, 1.2)
+        url("img/kino_objazd.jpg");
+        background-blend-mode: overlay;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
         justify-content: center; 
-        opacity: 0.3;
         transition: 0.9s;
     }
     .myStyleHistoriaSection:hover{
-        opacity: 1;
+        background: rgba(198, 164, 164, 0) url("img/kino_objazd.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* opacity: 1; */
     }    
-   
+
 
 /*  ---- twórcy-reżyserzy-aktorzy section ---- */
 .zobaczWiecejClass{
     text-decoration: none;
     font-size: 30px;
-    color: black;
+    color: #
 }
     .zobaczWiecejClass:hover{
         color: #d30f0f;
