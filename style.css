@@ -33,13 +33,13 @@ a{
     transform: rotate(0);
 }
     .myOwnClass-insideLinekedDivs:hover a{
-        color:#d30f0f;
+        color: #d30f0f;
     }
 
 
 /* ---- o projekcie section ---- */
 .oProjekcieSection{
-    background-color:rgb(182, 7, 7);
+    background-color: #d30f0f;
 }
     .myOwnClassProjectContentLeft{
         background-color: #000000;
@@ -74,13 +74,13 @@ a{
 }
     .pInHistoriaSection{
         color: #ffffff;
-        font-size: 20px;
+        /* font-size: 30px; */
         font-weight: 400;
     }
     .myStyleHistoriaSection{
         width: 510px;
         height: 500px;
-        background: rgba(38, 163, 71, 0.5)
+        background:rgba(211, 15, 15, 0.750)
         url("img/kino_objazd.jpg");
         background-blend-mode: overlay;
         background-position: center;
