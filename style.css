@@ -50,10 +50,6 @@ a{
         border-color: #000000;
         border-radius: 10px;
     }
-    .myOwnClassProjectContentLeft::first-letter{
-        color: #d30f0f;
-        font-size: 40px;
-    }
     .myOwnClassProjectContentRight{
         background-color: #ffffff;
         text-align: justify;
@@ -64,10 +60,11 @@ a{
         border-radius: 10px;
         color: #000000;
     }
+    .myOwnClassProjectContentLeft::first-letter ,
     .myOwnClassProjectContentRight::first-letter{
         color: #d30f0f;
         font-size: 40px;
-    }
+}   
 
     
 /*  ---- historia section ---- */
@@ -75,15 +72,15 @@ a{
     color: #d30f0f;
     font-size: 60px;
 }
-    .test{
+    .pInHistoriaSection{
         color: #ffffff;
-        font-size: 50px;
+        font-size: 20px;
         font-weight: 400;
     }
     .myStyleHistoriaSection{
-        width: 550px;
-        height: 550px;
-        background: rgba(211, 15, 15, 1.2)
+        width: 510px;
+        height: 500px;
+        background: rgba(38, 163, 71, 0.5)
         url("img/kino_objazd.jpg");
         background-blend-mode: overlay;
         background-position: center;
