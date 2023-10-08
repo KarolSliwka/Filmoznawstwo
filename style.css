@@ -37,7 +37,7 @@ a{
     }
 
 
-/* ---- o projekcie section ---- */
+/* ---- "O projekcie" section ---- */
 .oProjekcieSection{
     background-color: #d30f0f;
 }
@@ -64,23 +64,18 @@ a{
     .myOwnClassProjectContentRight::first-letter{
         color: #d30f0f;
         font-size: 40px;
-}   
+    }   
 
     
-/*  ---- historia section ---- */
+/*  ---- "Historia" section ---- */
 .historiaSection{
     color: #d30f0f;
     font-size: 60px;
 }
-    .pInHistoriaSection{
-        color: #ffffff;
-        /* font-size: 30px; */
-        font-weight: 400;
-    }
     .myStyleHistoriaSection{
-        width: 510px;
+        width: 500px;
         height: 500px;
-        background:rgba(211, 15, 15, 0.750)
+        background:rgba(211, 15, 15, 0.850)
         url("img/kino_objazd.jpg");
         background-blend-mode: overlay;
         background-position: center;
