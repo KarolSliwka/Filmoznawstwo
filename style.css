@@ -91,7 +91,6 @@ a{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        /* opacity: 1; */
     }    
 
 
@@ -99,10 +98,11 @@ a{
 .zobaczWiecejClass{
     text-decoration: none;
     font-size: 30px;
-    color: #000000
+    color: #000000;
+    transition: 0.3s;
 }
     .zobaczWiecejClass:hover{
-        color: #d30f0f;
+        color: #ffffff;
     }
 
 
